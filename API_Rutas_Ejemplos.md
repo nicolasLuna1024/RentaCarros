@@ -1,5 +1,4 @@
-# API Rutas y Ejemplos de JSON para Pruebas
-
+### RUTAS PARA PROBAR CADA MODELO DE LA BASE DE DATOS
 ## Autenticación
 
 ### Registro de usuario
@@ -123,7 +122,4 @@ Authorization: Bearer {token}
 ### Eliminar renta
 - **DELETE** `/api/rentas/{id}`
 
----
 
-> Todas las rutas (excepto registro/login) requieren autenticación con JWT en el header:
-> `Authorization: Bearer {token}`
