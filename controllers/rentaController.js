@@ -18,6 +18,7 @@ export const getRenta = async (req, res) => {
   } catch (error) {
     res.status(500).json({ msg: 'Error al obtener renta', error });
   }
+  
 };
 
 export const createRenta = async (req, res) => {

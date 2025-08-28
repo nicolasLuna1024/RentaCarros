@@ -8,4 +8,5 @@ const carroSchema = new mongoose.Schema({
   disponible: { type: Boolean, default: true }
 });
 
+
 export default mongoose.model('Carro', carroSchema);

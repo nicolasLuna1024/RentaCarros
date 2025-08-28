@@ -17,6 +17,7 @@ export const getCarro = async (req, res) => {
   } catch (error) {
     res.status(500).json({ msg: 'Error al obtener carro', error });
   }
+  
 };
 
 export const createCarro = async (req, res) => {

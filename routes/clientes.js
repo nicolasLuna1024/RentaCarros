@@ -16,4 +16,5 @@ router.post('/', authMiddleware, createCliente);
 router.put('/:id', authMiddleware, updateCliente);
 router.delete('/:id', authMiddleware, deleteCliente);
 
+
 export default router;

@@ -9,4 +9,5 @@ const rentaSchema = new mongoose.Schema({
   estado: { type: String, enum: ['activa', 'finalizada'], default: 'activa' }
 });
 
+
 export default mongoose.model('Renta', rentaSchema);

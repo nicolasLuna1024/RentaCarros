@@ -8,4 +8,5 @@ const clienteSchema = new mongoose.Schema({
   telefono: { type: String, required: true }
 });
 
+
 export default mongoose.model('Cliente', clienteSchema);

@@ -6,4 +6,5 @@ const userSchema = new mongoose.Schema({
   rol: { type: String, enum: ['admin', 'user'], default: 'user' }
 });
 
+
 export default mongoose.model('Usuario', userSchema);

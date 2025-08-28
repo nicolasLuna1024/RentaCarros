@@ -18,4 +18,5 @@ router.put('/:id', authMiddleware, updateRenta);
 router.put('/:id/finalizar', authMiddleware, finalizarRenta);
 router.delete('/:id', authMiddleware, deleteRenta);
 
+
 export default router;

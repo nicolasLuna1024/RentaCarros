@@ -16,4 +16,5 @@ router.post('/', authMiddleware, adminMiddleware, createCarro);
 router.put('/:id', authMiddleware, adminMiddleware, updateCarro);
 router.delete('/:id', authMiddleware, adminMiddleware, deleteCarro);
 
+
 export default router;
